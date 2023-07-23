@@ -1,0 +1,125 @@
+/* 
+*{
+    overflow-x: hidden;
+} */
+#inpend{
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+}
+#divlast{
+    padding-left: 30%;padding-right: 30%; display: flex;
+}
+@media screen and (max-width: 600px){
+    #divlast{
+        display: none;
+    }
+}
+
+
+
+
+
+/* #lastinfodiv{
+        margin-left: 40%; 
+}
+@media screen and (max-width: 1200px){
+    #lastinfodiv{
+        display: none;
+    }
+} */
+
+
+
+
+#opdiv{
+    padding-left: 1%;
+   
+}
+@media screen and (min-width: 600px){
+    #opdiv{
+        display: none;
+    }
+}
+#optiong{
+       color: black;
+}
+#optiong:hover{
+    color: rgb(255, 149, 0);
+}
+#maindiv{
+    display: inline-block;
+}
+@media screen and (min-width: 1100px){
+    #maindiv{
+        display: none;
+    }
+}
+
+#div1{
+    padding-left: 10%;padding-right: 10%;
+}
+@media screen and (min-width: 600px){
+    #div1{
+        display: none;
+    }
+}
+
+.outeridv{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.divbot{
+    color: aliceblue;
+}
+@media screen and (max-width: 600px){
+    .divbot{
+        display: none;
+    }
+}
+#a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#contresponsivdiv{
+    padding: 0px;
+}
+@media screen and (max-width: 800px){
+    #contresponsivdiv {
+        display: none;
+    }
+}
+#abdiv1{
+    padding: 1%;
+}
+@media screen and (min-width: 800px){
+    #abdiv1{
+        padding-top: 5%; padding-left: 25%;padding-right: 25%;
+    }
+}
+#abdiv2{
+    padding: 1%;
+   
+}
+@media screen and (min-width: 800px){
+    #abdiv2{
+        padding-top: 5%; padding-left: 25%;padding-right: 25%;
+    }
+}
+#loginform{
+    padding: 15%; padding-top: 5%;
+  
+}
+#loginbody{
+    overflow-x: hidden;
+}
+#personaldiv{
+    text-align: center;
+   
+}
+#pdiv{
+    color: rgb(29, 28, 28);
+}
+#pdiv:hover{
+    color:rgb(255, 149, 0) ;
+}
